@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Grace Hermocilla</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+ <div id="top" style="background-color:#FBCBDC; color:#502634c0; text-align:center; padding:30px;">
+    <h1 style="font-family:Arial; font-size:42px;">Grace Hermocilla</h1>
+    <h3 style="font-family:Arial; font-weight:normal;">
+        Certificate in Computer Science | Pateros Technological College
+    </h3>
+    <h4 style="color:#333333; font-style:italic;">
+        "Life is short but never make it shorter"
+    </h4>
+</div>
+
+<!-- ===== NAVIGATION BAR ===== -->
+<div style="background-color:#D6536D; padding:10px; text-align:center;">
+    <a href="#about" style="color:white; margin:0 15px; text-decoration:none; font-family:Arial;">About Me</a>
+    <a href="#skills" style="color:white; margin:0 15px; text-decoration:none; font-family:Arial;">Skills</a>
+    <a href="#gallery" style="color:white; margin:0 15px; text-decoration:none; font-family:Arial;">Gallery</a>
+    <a href="#lists" style="color:white; margin:0 15px; text-decoration:none; font-family:Arial;">Lists</a>
+    <a href="#contact" style="color:white; margin:0 15px; text-decoration:none; font-family:Arial;">Contact</a>
+    <a href="#top" style="color:#FFD700; margin:0 15px; text-decoration:none; font-family:Arial;">↑ Top</a>
+</div>
+
+<!-- ===== ABOUT ME ===== -->
+<div id="about" style="padding:30px; font-family:Arial;">
+    <h2 style="color:#1F3864;">About Me</h2>
+    <hr style="border:2px solid #2E74B5; width:80px; margin-left:0;">
+
+    <p style="font-size:16px; line-height:1.8; color:rgb(40,40,40);">
+        My name is <strong>Grace Hermocilla</strong> and I am currently studying 
+        <em>Certificate in Computer Science</em> at <mark>Pateros Technological College</mark>. 
+        I was born on <b>February 27</b>, 
+        <sup>2006</sup> in <i>Zamboanga Sibugay</i>. 
+        My student number is <small>CCS-<sub>2025</sub>-0341</small>.
+    </p>
+    
+    <p style="font-size:16px; line-height:1.8; color:rgba(30,30,30,0.85);">
+    I am passionate about <del>gaming all day</del> 
+    <ins>learning web development</ins>. 
+    My dream is to be a Cybersecurity Analyst.</p>
+    
+    <p style="margin-top:20px; font-weight:bold; font-family:Arial;">
+        Color Formats I Know:</p>
+    <p style="color: red;"> Color Name: red</p>
+    <p style="color: #B89D47;"> HEX Code: #B89D47 (pistachio)</p>
+    <p style="color: rgb(179, 44, 156);"> RGB: rgb(179, 44, 156)</p>
+    <p style="color: rgba(46, 181, 68, 0.678);"> RGBA: rgba(46, 181, 68, 0.678) — 68% opacity</p>
+    <p style="color: hsl(168, 82%, 11%);"> HSL: hsl(168, 82%, 11%)</p>
+
+    <pre style="background:#F4F4F4; padding:15px; font-size:14px; border-left:4px solid #2E74B5;">
+Hello, World!
+  My name is Grace.
+    I code, therefore I am.
+      — Grace, 2026
+</pre>
+<br>
+<hr>
+</div>
+
+<!-- ===== GALLERY ===== -->
+<div id="gallery" style="padding:30px; font-family:Arial;
+     background-color:#F5F8FF;">
+
+    <h2 style="color:#1F3864;">Gallery</h2>
+    <hr style="border:2px solid #2E74B5; width:80px; margin-left:0;">
+
+    <!-- Image 1: Fixed size + alt text -->
+    <img src="images/photo1.png"
+         alt="Myself"
+         width="280" height="200"
+         style="margin:8px; border:3px solid #2E74B5;">
+
+    <!-- Image 2: Float right + margin -->
+    <img src="images/photo2.png"
+         alt="Myself"
+         style="float:right; width:260px; margin:8px;
+         border:3px solid #1F3864;">
+
+    <!-- Image 3: Clickable image link (opens W3Schools in new tab) -->
+    <a href="https://www.w3schools.com" target="_blank"
+       title="Click to visit W3Schools">
+       <img src="images/photo3.jpg"
+            alt="Click this image to visit W3Schools"
+            width="280" height="200"
+            style="margin:8px; border:3px solid #C65911;">
+    </a>
+
+    <div style="clear:both; margin-top:20px;">
+        
+        <!-- IMAGE MAP on photo1 - define 2 clickable areas -->
+        <p style="font-weight:bold;">
+            Click different areas of the image below:</p>
+        <img src="images/photo1.jpg"
+             alt="Image map photo"
+             width="400" height="280"
+             usemap="#mymap">
+
+        <map name="mymap">
+            <!-- Rectangular area: top-left orner region -->
+            <area shape="rect" coords="0,0,200,140"
+                  href="https://www.google.com"
+                  target="_blank"
+                  alt="Left half — opens Google">
+            <!-- Circular area: center of image -->
+            <area shape="circle" coords="200,140,80"
+                  href="https://www.w3schools.com"
+                  target="_blank"
+                  alt="Center circle — opens W3Schools">
+        </map>
+    </div>
+</div>
+
+<!-- ===== SKILLS TABLE ===== -->
+<div id="skills" style="padding:30px; font-family: Arial;">
+
+    <h2 style="color:#1F3864;">My Skills</h2>
+    <hr style="border:2px solid #2E74B5; width:80px; margin-left:0;">
+    
+    <table style="width:90%; border-collapse:collapse;
+                  border-spacing:0; margin-top:15px;">
+
+    <thead>
+        <!-- Merged headr title spanning ALL 4 columns -->
+        <tr>
+            <th colspan="4"
+                style="background:#D6536D; color:white; padding:12px;
+                       text-align:center; font-size:16px;
+                       border:1px solid #D6536D;">
+                Technical & Personal Skills Profile
+            </th></tr>
+
+        <tr style="background:#e2899b; color:white;">
+            <th style="padding:10px; border:1px solid #ccc; width:30%;">Skill</th>
+            <th style="padding:10px; border:1px solid #ccc; width:25%;">Category</th>
+            <th style="padding:10px; border:1px solid #ccc; width:25%;">Level</th>
+            <th style="padding:10px; border:1px solid #ccc; width:20%;">Years</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    <!-- Row with rowspan: "Technical" category spans 3 rows -->
+     <tr style="background:#EBF3FB;">
+            <td style="padding:10px; border:1px solid #ccc;">HTML & CSS</td>
+            <td rowspan="2" 
+                style="padding:10px; border:1px solid #ccc;
+                text-align:center; vertical-align:middle;
+                background:#D6E4F0; font-weight:bold;">
+                Technical
+            </td>
+            <td style="padding:10px; border:1px solid #ccc;">Intermediate</td>
+            <td style="padding:10px; border:1px solid #ccc; text-align:center;">2</td>
+        </tr>
+
+        <tr style="background:white;">
+            <td style="padding:10px; border:1px solid #ccc;">Java</td>
+            <td style="padding:10px; border:1px solid #ccc;">Beginner</td>
+            <td style="padding:10px; border:1px solid #ccc; text-align:center;">1</td>
+        </tr>
+
+        <tr style="background:#EBF3FB;">
+            <td style="padding:10px; border:1px solid #ccc;">Tech-savvy</td>
+            <td style="padding:10px; border:1px solid #ccc;">Hybrid Skill</td>
+            <td style="padding:10px; border:1px solid #ccc;">Intermediate</td>
+            <td style="padding:10px; border:1px solid #ccc; text-align:center;">3</td>
+        </tr>
+        <!-- WITH 2 MORE SOFT SKILLS-->
+        <tr style="background:white;">
+            <td style="padding:10px; border:1px solid #ccc;">Empathetic Listener</td>
+            <td style="padding:10px; border:1px solid #ccc;">Soft Skill</td>
+            <td style="padding:10px; border:1px solid #ccc;">Advanced</td>
+            <td style="padding:10px; border:1px solid #ccc; text-align:center;">6</td>
+        </tr>
+
+        <tr style="background:#EBF3FB;">
+            <td style="padding:10px; border:1px solid #ccc;">Teamwork</td>
+            <td style="padding:10px; border:1px solid #ccc;">Soft Skill</td>
+            <td style="padding:10px; border:1px solid #ccc;">Advanced</td>
+            <td style="padding:10px; border:1px solid #ccc; text-align:center;">-</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr style="background:#F5F5F5;">
+            <td colspan="3" 
+                style="padding:10px; border:1px solid #ccc;
+                       font-weight:bold;">Total Skills Listed</td>
+            <td style="padding:10px; border:1px solid #ccc;
+                       text-align:center; font-weight:bold;">5</td>
+        </tr>
+    </tfoot>
+</table>
+</div>
+
+<!-- ===== LISTS ===== -->
+<div id="lists" style="padding:30px; font-family:Arial;
+     background-color:#F5F8FF;">
+
+    <h2 style="color:#1F3864;">All About Me — Lists</h2>
+    <hr style="border:2px solid #2E74B5; width:80px; margin-left:0;">
+
+    <!-- === Unorered List: Hobbies (disc) === -->
+    <h3 style="color:#b5ac2e;"> My Hobbies</h3>
+    <ul style="list-style-type:disc; line-height:2;">
+        <li>Travel</li>
+        <li>Swimming</li>
+        <li>Muay Thai</li>
+        <li>Chess</li>
+    </ul>
+
+    <!-- === Unorered List: Fav websites (square, no bullet) === -->
+    <h3 style="color:#b5ac2e;"> Websites I Visit Daily</h3>
+    <ul style="list-style-type:square; line-height:2;">
+        <li>Spotify</li>
+        <li>TikTok</li>
+        <li>Indeed</li>
+    </ul>
+
+    <!-- === Orered List: Steps (default number) === -->
+    <h3 style="color:#b5ac2e;"> My Daily Routine</h3>
+    <ol type="1" style="line-height:2;">
+        <li>Wake up</li>
+        <li>Play with my dog</li>
+        <li>Take a shower</li>
+        <li>Eat breakfast</li>
+        <li>Attend class</li>
+        <li>Study and do the activities</li>
+        <li>Play Roblox before going to sleep</li>
+    </ol>
+
+    <!-- === Orered List: Goals (uppercase letters, starts at A) === -->
+    <h3 style="color:#b5ac2e;">My Goals This Semester</h3>
+    <ol type="A" style="line-height:2;">
+        <li>Maintain High GWA</li>
+        <li>Stay Alive</li>
+        <li>Work in Europe as a Cybersecurity Analyst</li>
+    </ol>
+
+    <!-- === Orered List: Continued from previous (start at 4, Roman) === -->
+    <h3 style="color:#b5ac2e;"> Long-Term Goals (continued)</h3>
+    <ol type="I" start="4" style="line-height:2;">
+        <li>Graduate with Latin Honor</li>
+        <li>Maintain a Advanced Technical Skills</li>
+    </ol>
+
+    <!-- === Nested List: Course Outline === -->
+    <h3 style="color:#b5ac2e;"> My Current Subjects</h3>
+    <ol type="1" style="line-height:1.9;">
+        <li>Programming 2
+            <ul style="list-style-type:circle;">
+                <li>Topic: Java History</li>
+                <li>Topic: Environment Setup
+                    <ul style="list-style-type:disc;">
+                        <li>Subtopic: JDK and NetBeans Installation</li>
+                        <li>Subtopic: Verification and Testing</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Introduction to Web Technologoies
+            <ul style="list-style-type:circle;">
+                <li>Topic: HTML</li>
+                <li>Topic: Webpage Creation</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!-- === Description List: HTML Glossary === -->
+    <h3 style="color:#2E74B5;"> Mini HTML Glossary</h3>
+    <dl style="line-height:2;">
+        <dt style="font-weight:bold; color:#1a5c20;">Element</dt>
+        <dd style="margin-left:30px;">A building block of HTML defined by a start tag, 
+        content, and an end tag.</dd>
+
+        <dt style="font-weight:bold; color:#1a5c20;">Attribute</dt>
+        <dd style="margin-left:30px;">Additional information placed inside the start 
+        tag of an element.</dd>
+
+        <dt style="font-weight:bold; color:#1a5c20;">Semantic HTML</dt>
+        <dd style="margin-left:30px;">Using HTML elements that carry meaning, like 
+        &lt;strong&gt; instead of &lt;b&gt;.</dd>
+
+        <dt style="font-weight:bold; color:#1a5c20;">Hyperlink</dt>
+        <dd style="margin-left:30px;">A clickable reference to another page or location 
+        created using the &lt;a&gt; tag.</dd>
+
+        <dt style="font-weight:bold; color:#1a5c20;">Image Map</dt>
+        <dd style="margin-left:30px;">An image with clickable hotspot areas defined 
+        by &lt;map&gt; and &lt;area&gt; elements.</dd>
+
+        <dt style="font-weight:bold; color:#1a5c20;">Favicon</dt>
+        <dd style="margin-left:30px;">A small icon displayed in the browser tab, 
+        linked via &lt;link rel="icon"&gt; in the &lt;head&gt;.</dd>
+    </dl>
+</div>
+
+<!-- ===== CONTACT & LINKS ===== -->
+<div id="contact" style="padding:30px; font-family:Arial;">
+
+    <h2 style="color:#1F3864;">Contact & Useful Links</h2>
+    <hr style="border:2px solid #2E74B5; width:80px; margin-left:0;">
+
+    <h3 style="color:#2E74B5;"> Recommended Resources</h3>
+    <p>
+        <a href="https://www.w3schools.com" target="_blank"
+           title="Learn HTML at W3Schools"
+           style="color:#2eb5b5; font-weight:bold;">W3Schools</a>
+        &nbsp; | &nbsp;
+        <a href="https://developer.mozilla.org" target="_blank"
+           title="MDN Web Docs"
+           style="color:#b52eaa; font-weight:bold;">MDN Web Docs</a>
+        &nbsp; | &nbsp;
+        <a href="https://www.youtube.com" target="_blank"
+           style="color:#C65911; text-decoration:none; font-weight:bold;">
+           YouTube</a>
+    </p>
+
+    <h3 style="color:#2E74B5;"> Send Me an Email</h3>
+    <p>
+        <a href="mailto:hermocillagrace03@email.com"
+           title="Click to email me"
+           style="color:#1E6B33; font-weight:bold;">
+           hermocillagrace03@email.com
+        </a>
+    </p>
+
+    <p style="margin-top:30px; text-align:right;">
+        <a href="#top"
+           style="background:#1F3864; color:white; padding:8px 16px;
+           text-decoration:none; font-family:Arial;
+           border-radius:4px;">
+           ↑ Back to Top
+        </a>
+    </p>
+
+    <div style="margin-top:40px; padding:20px;
+         background:#D6536D; color:white; text-align:center;">
+        <p style="margin:0; font-size:14px;">
+            &copy; 2026 Grace Hermocilla — HTML Lab Activity
+        </p>
+        <p style="margin:4px 0 0; font-size:12px; color:#A8D0F5;">
+            Built with pure HTML | No CSS frameworks used
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
